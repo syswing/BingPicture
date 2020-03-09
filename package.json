@@ -1,0 +1,14 @@
+{
+  "name": "scrf",
+  "version": "1.0.0",
+  "description": "cn.bing 每日美图一抓",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "syswing",
+  "license": "MIT",
+  "devDependencies": {
+    "request": "^2.88.2"
+  }
+}
