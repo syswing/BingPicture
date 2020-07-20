@@ -1,3 +1,5 @@
 /node_modules
 /imgs/*
 /.history
+
+package-lock.json

@@ -10,5 +10,8 @@
   "license": "MIT",
   "devDependencies": {
     "request": "^2.88.2"
+  },
+  "dependencies": {
+    "wallpaper": "^4.4.1"
   }
 }

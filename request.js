@@ -11,6 +11,8 @@ const createRequest = (method, url, data, options) => {
         const url = `https://cn.bing.com/${imagesArr[i].url}`
         request(url).pipe(fs.createWriteStream(`./imgs/${imagesArr[i].fullstartdate}.png`))
       }
+      const wallpaper = require('wallpaper')
+      wallpaper.set(`./imgs/${imagesArr[imagesArr.length - 1 ].fullstartdate}.png`)
     })
   })
 }
